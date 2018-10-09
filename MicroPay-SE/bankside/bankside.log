@@ -1,0 +1,35 @@
+2017-07-05 14:10:45.542  INFO 8952 --- [main] cn.edu.zju.BanksideApplicationTests      : Starting BanksideApplicationTests on PC-Lannooo with PID 8952 (started by 51499 in D:\IntelliJ IDEA 2016.2.5\MyPros\MicroPay-SE\bankside)
+2017-07-05 14:10:45.544  INFO 8952 --- [main] cn.edu.zju.BanksideApplicationTests      : No active profile set, falling back to default profiles: default
+2017-07-05 14:10:45.616  INFO 8952 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3b6ddd1d: startup date [Wed Jul 05 14:10:45 CST 2017]; root of context hierarchy
+2017-07-05 14:10:47.240  INFO 8952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-07-05 14:10:47.356  INFO 8952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-07-05 14:10:47.379  INFO 8952 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.edu.zju.database.repository.AccountRecordRepository.
+2017-07-05 14:10:47.381  INFO 8952 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.edu.zju.database.repository.AccountRepository.
+2017-07-05 14:10:47.383  INFO 8952 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.edu.zju.database.repository.FlowRecordRepository.
+2017-07-05 14:10:49.606  INFO 8952 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-05 14:10:49.715  INFO 8952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-05 14:10:50.283  INFO 8952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-05 14:10:50.285  INFO 8952 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-07-05 14:10:50.287  INFO 8952 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-07-05 14:10:50.483  INFO 8952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-05 14:10:57.897  INFO 8952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-07-05 14:10:59.924  INFO 8952 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2017-07-05 14:11:01.145  INFO 8952 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: account
+2017-07-05 14:11:01.216  INFO 8952 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: account
+2017-07-05 14:11:05.031  INFO 8952 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: account_record
+2017-07-05 14:11:05.087  INFO 8952 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: account_record
+2017-07-05 14:11:05.302  INFO 8952 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: flow_record
+2017-07-05 14:11:05.440  INFO 8952 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: flow_record
+2017-07-05 14:11:09.887  INFO 8952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-05 14:11:11.625  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3b6ddd1d: startup date [Wed Jul 05 14:10:45 CST 2017]; root of context hierarchy
+2017-07-05 14:11:11.839  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bank/account/transfer]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.edu.zju.controller.AccountController.createTransfer(java.lang.String)
+2017-07-05 14:11:11.847  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-05 14:11:11.850  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-05 14:11:11.942  INFO 8952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-05 14:11:11.945  INFO 8952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-05 14:11:12.039  INFO 8952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-05 14:11:12.884  INFO 8952 --- [main] cn.edu.zju.BanksideApplicationTests      : Started BanksideApplicationTests in 27.919 seconds (JVM running for 29.271)
+2017-07-05 14:11:12.983  INFO 8952 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3b6ddd1d: startup date [Wed Jul 05 14:10:45 CST 2017]; root of context hierarchy
+2017-07-05 14:11:12.992  INFO 8952 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

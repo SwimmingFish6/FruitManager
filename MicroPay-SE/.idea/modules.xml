@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bankside/bankside.iml" filepath="$PROJECT_DIR$/bankside/bankside.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fruitcenter/fruitcenter.iml" filepath="$PROJECT_DIR$/fruitcenter/fruitcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fruitmanager/fruitmanager.iml" filepath="$PROJECT_DIR$/fruitmanager/fruitmanager.iml" />
+    </modules>
+  </component>
+</project>
